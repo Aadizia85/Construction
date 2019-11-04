@@ -1,0 +1,25 @@
+public class AbstractFactoryPatternDemo {
+     public static void main(String[] args) {
+
+      AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
+    
+      shape shape1 = shapeFactory.getShape2("RECTANGLE");
+      
+      shape1.draw();
+      
+      shape shape2 = shapeFactory.getShape2("SQUARE");
+      
+      shape2.draw();
+      
+      AbstractFactory shapeFactory1 = FactoryProducer.getFactory(true);
+     
+      shape shape3 = shapeFactory1.getShape2("RECTANGLE");
+     
+      shape3.draw();
+      
+      shape shape4 = shapeFactory1.getShape2("SQUARE");
+      
+      shape4.draw();
+    
+}
+}

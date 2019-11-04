@@ -1,0 +1,4 @@
+public abstract class AbstractFactory {
+    abstract shape getShape2(String shapeType) ;
+    abstract Color getColor(String colorType) ;
+}
