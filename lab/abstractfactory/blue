@@ -1,0 +1,12 @@
+public class Blue implements Color{
+     @Override
+   public void fill() {
+      System.out.println("Rectangle::fill() method."+"having Blue rose");
+
+      System.out.println("Circle::fill() method."+"having Blue color");
+
+      System.out.println("Square::fill() method."+"having Blue face");
+    
+    
+}
+}

@@ -1,0 +1,31 @@
+import java.awt.Color;
+import java.util.Scanner;
+
+/**
+ *
+ * @author adi pc
+ */
+public class Circle {
+
+    public static void main(String[] args) 
+    {
+        Color Red= null;
+        
+        Circlecolor myCircle = new Circlecolor(4.5,3.6,Red);
+        
+        Scanner keyboard = new Scanner(System.in);     
+          double circleRadius;
+          double circlePI;
+          Color color; 
+        System.out.print("What is the circle's radius?  ");
+        circleRadius = keyboard.nextDouble();
+        myCircle.radius();
+        System.out.println("The area of the circle is " + myCircle.getArea());
+        System.out.println("The color of the circle is " + myCircle.getColor());
+
+}
+
+    
+
+
+    }

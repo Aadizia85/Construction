@@ -1,0 +1,10 @@
+ */
+public class Circle  implements Shape1{
+
+   
+    @Override
+    public void Draw() {
+        System.out.println(" Circle has draw() method."  +"Make a happy day");
+    }
+    
+}

@@ -1,0 +1,24 @@
+ */
+public class factorypatterndemo {
+     public static void main(String[] args) {
+      shapefactory shapeFactory = new shapefactory();
+
+      //get an object of Circle and call its draw method.
+      Shape1 shape3 = shapeFactory.getShape2("CIRCLE");
+
+      //call draw method of Circle
+      shape3.Draw();
+
+      //get an object of Rectangle and call its draw method.
+      Shape1 shape4 = shapeFactory.getShape2("RECTANGLE");
+
+      //call draw method of Rectangle
+      shape4.Draw();
+
+      //get an object of Square and call its draw method.
+      Shape1 shape5 = shapeFactory.getShape2("SQUARE");
+
+      //call draw method of square
+      shape5.Draw();
+   }
+}

@@ -1,0 +1,80 @@
+import java.awt.Color;
+import java.awt.Graphics;
+
+/**
+ *
+ * @author adi pc
+ */
+public class Circlecolor {
+     
+         
+
+    private final double PI = 3.14159;
+
+    private double radius;
+
+    private double area;
+    private Color color;
+
+    
+    public Circlecolor(double r, double a, Color c)  
+
+    {
+
+        radius = r;
+
+        area = a;
+        color=c;
+        
+
+    }
+
+    
+    public void Circle(Color type) 
+
+    {
+
+        radius = 0;
+
+        area = 0;
+        color = type;
+
+    }
+    public void  radius()
+    {
+        
+    }
+    
+    public void setRadius(double r)
+
+    {
+
+        radius = r;
+    }
+    public void setcolor(Graphics circle)
+    {
+       circle.setColor(color); 
+    }
+    public double getRadius()
+    {
+        return radius;
+    }
+    public double getArea()
+    {
+        return area = PI * radius * radius;
+    }
+    public Color getColor()
+        {
+            return color;
+        }
+     
+   
+    public double getPI()
+    {
+        return PI;
+    }
+
+   
+    
+}
+

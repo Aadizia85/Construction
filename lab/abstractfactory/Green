@@ -1,0 +1,13 @@
+public class Green implements Color{
+     @Override
+   public void fill() {
+      System.out.println("Rectangle::fill() method."+"having Green rose");
+
+      System.out.println("Circle::fill() method."+"having Green color");
+
+      System.out.println("Square::fill() method."+"having Green face");
+    
+    
+    
+}
+}
