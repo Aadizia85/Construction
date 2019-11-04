@@ -1,0 +1,50 @@
+public class Student {
+   public int numOfTest,score;
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+   protected String name,test,courseGrade;
+
+    public Student() {
+        this.name=null;
+        this.test=null;
+        this.courseGrade=null;
+        this.numOfTest=0;
+        this.score=0;
+    }
+
+    public Student(int numOfTest, String name, String test, String courseGrade) {
+        this.numOfTest = numOfTest;
+        this.name = name;
+        this.test = test;
+        this.courseGrade = courseGrade;
+    }
+
+
+    public void setNumOfTest(int numOfTest) {
+        this.numOfTest = numOfTest;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCourseGrade() {
+        return courseGrade;
+    }
+
+    public void setCourseGrade(String courseGrade) {
+        this.courseGrade = courseGrade;
+    }
+    
+
+}

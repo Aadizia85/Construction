@@ -1,0 +1,12 @@
+public class UnderGraduateStudents extends Student{
+    
+    public UnderGraduateStudents(int numOfTest, String name, String test, String courseGrade) {
+        super(numOfTest, name, test, courseGrade);
+    }
+    
+    @Override
+     public String getCourseGrade() {
+        return courseGrade;
+    }
+}
+

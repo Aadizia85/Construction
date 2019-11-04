@@ -1,0 +1,15 @@
+public class MainClassCA {
+
+
+    public static void main(String[] args) {
+        Graduate g=new Graduate(1,"xyz","test1","A+");    
+        System.out.println("course grade is: "+g.getCourseGrade()+"\n");
+        System.out.println("The Name is: "+g.getName()+"\n");
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter Name to be set");
+        String name=s.nextLine();
+        g.setName(name);
+        System.out.println("The new Name  is: "+g.getName()+"\n");
+    }
+    
+}
