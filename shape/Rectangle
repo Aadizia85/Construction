@@ -1,0 +1,8 @@
+ */
+public class Rectangle implements Shape1  {
+
+    @Override
+    public void Draw() {
+         System.out.println("Rectangle has draw() method."+"hey momo and aadarsh ,whts up!");
+   }
+    }

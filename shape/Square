@@ -1,0 +1,8 @@
+public  class Square implements Shape1 {
+
+    @Override
+    public void Draw() {
+        System.out.println(" Square has draw() method."+"Today is my day");
+    }
+    
+}
